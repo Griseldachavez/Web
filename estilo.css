@@ -1,0 +1,62 @@
+        table{
+           background-color: #cbebff;  
+          width: 1500px;
+            height: 150px;
+            margin: auto;
+            padding:40px;
+            text-align: center;
+            border-radius: 32px 32px 32px 32px;  
+            box-sizing: border-box; 
+        }
+.block {
+            background-image:url("img/estrellas.jpg");
+           background-size:cover;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin: 5px;
+            display: block;/*Posición haciendo salto de línea*/
+        }
+        .inline {
+             background-image:url("img/estrellas.jpg");
+           background-size:cover;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin: 5px;
+            display: inline;
+        }
+ 
+        .inline-block {
+             background-image:url("img/estrellas.jpg");
+           background-size:cover;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin: 5px;
+            display: inline-block;
+            height: 100px;
+            width: 100px;
+        }
+ 
+.roja {
+        width: 100px;
+      height: 100px;
+      position: fixed; /* Requisito para z-index */
+      background-image:url("img/chicken.jpg");
+           background-size:cover;
+      top: 20px;
+            left: 1355px;
+      z-index: 0;
+    }
+ 
+    .azul {
+        width: 100px;
+      height: 100px;
+      position: fixed;
+      background-image:url("img/little.jpg");
+           background-size:cover;
+      top: 70px;
+            left: 1300px;
+      z-index: 1;
+    }
