@@ -1,0 +1,135 @@
+
+   
+.menuSticky{
+            overflow: visible;
+            top: 0;
+            position: sticky;
+            
+        }
+        ul {
+            display: flex;
+            justify-content: center; /* centra horizontal */
+            align-items: center;
+            list-style: none;
+            background-color: #fff200;
+            margin: 0;
+            padding: 0;
+        }
+ 
+        li {
+            float: none;
+        }
+ 
+        .opcion {
+            display: inline-block;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 14px;
+            text-decoration: none;
+        }
+ 
+        .dropbtn {
+            display: inline-block;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 14px;
+            text-decoration: none;
+        }
+ 
+        .dropdown {
+            display: inline-block;
+        }
+ 
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #eff6b3;
+            width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+ 
+        a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+ 
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+
+      #slideshow {
+        text-align: center;
+        overflow: hidden;
+        height: 675px;
+        width: 540px;
+        margin: 20px auto;
+      }
+      
+      .slide-wrapper {
+        width: 3640px;
+        animation: slide 25s infinite ease-in-out;
+      }
+      
+      
+      .imgUno {
+        color: beige;
+        background-image: url(img/hnmpl.png);
+         background-size:cover;
+        float: left;
+        height: 675px;
+        width: 540px;
+      }
+      
+      .imgDos {
+        color: beige;
+        background-image: url(img/Addams.png);
+         background-size:cover;
+        float: left;
+        height: 675px;
+        width: 540px;
+      }
+      
+      .imgTres {
+        color: beige;
+        background-image: url(img/bettlejuice.png);
+        background-size:cover;
+        float: left;
+        height: 675px;
+        width: 540px;
+      }
+      
+      .imgCuatro {
+        color: beige;
+        background-image: url(img/wonka.png);
+        background-size:cover;
+        float: left;
+        height: 675px;
+        width: 540px;
+      }
+
+      .imgCinco {
+        color: beige;
+        background-image: url(img/princesas.png);
+        background-size:cover;
+        float: left;
+        height: 675px;
+        width: 540px;
+      }
+      
+      @keyframes slide {
+        20% {margin-left: 0px;}
+        30% {margin-left: -540px;}
+        40% {margin-left: -540px;}
+        50% {margin-left: -1080px;}
+        60% {margin-left: -1080px;}
+        70% {margin-left: -1620px;}
+        80% {margin-left: -1620px;}
+        90% {margin-left: -2160px;}
+        100% {margin-left: -2160px;}
+      }
+      
